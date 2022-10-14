@@ -67,7 +67,7 @@ thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 
-my_id = '100007061760822'
+my_id = '100086482973594'
 
 def jalan(z):
     for e in z + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.04)
@@ -99,7 +99,7 @@ def banner():
 \x1b[92;1m===================================>\x1b[92;1m
 \x1b[93;1m Author       \x1b[92;1m=>      \x1b[93;1mTonmoy mahato 
 \x1b[93;1m Whatsapp     \x1b[92;1m=>      \x1b[93;1m+88017*********
-\x1b[93;1m YouTube       \x1b[92;1m=>      \x1b[93;1mfuck
+\x1b[93;1m YouTube       \x1b[92;1m=>      \x1b[93;1mTONMOY MAHATO
 \x1b[92;1m===================================>\x1b[92;1m
 """%(h))
 		
@@ -114,10 +114,10 @@ def menu(): #Bilo
 	if farhan in ['1','01']:
 		File2()
 	elif farhan in ['0','00']:
-		os.system("xdg-open https://youtube.com/c/TalhaTechnologychannel")
+		os.system("xdg-open https://youtube.com/channel/UCzc-ArnXynlC_QjrDWCQ9eg")
 		exit()
 	else:
-		os.system("https://youtube.com/c/TalhaTechnologychannel")
+		os.system("https://youtube.com/channel/UCzc-ArnXynlC_QjrDWCQ9eg")
 		exit()
 
 def File2():
@@ -160,7 +160,7 @@ def setting():
 	if fast in ['y','Y']:
 		passwrd()
 	elif fast in ['t','T']:
-		os.system("xdg-open https://youtube.com/c/TalhaTechnologychannel")
+		os.system("xdg-open https://youtube.com/channel/UCzc-ArnXynlC_QjrDWCQ9eg")
 		exit()
 
 def passwrd():
@@ -248,6 +248,6 @@ if __name__=='__main__':
 	except:pass
 	try:os.mkdir('OK')
 	except:pass
-	os.system("xdg-open https://youtube.com/c/TalhaTechnologychannel")
+	os.system("xdg-open https://youtube.com/channel/UCzc-ArnXynlC_QjrDWCQ9eg")
 	menu()
 	
