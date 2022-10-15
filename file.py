@@ -80,7 +80,7 @@ def back():
 	menu()
 def banner():
 	clear()
-	print("""%s\n\x1b[93;1m
+	print("""%s\n\x1b[92;1m
 
 
  
