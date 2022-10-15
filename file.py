@@ -1,48 +1,4 @@
-import requests,bs4,json,os,sys,random,datetime,time,re
-try:
-	import rich
-except ImportError:
-	os.system('pip install rich')
-	time.sleep(1)
-	try:
-		import rich
-	except ImportError:
-		exit('[✓] Internet Eror ,Install Manual (pip install rich)')
-from rich.table import Table as me
-from rich.console import Console as sol
-from bs4 import BeautifulSoup as parser
-from concurrent.futures import ThreadPoolExecutor as tred
-from rich.console import Group as gp
-from rich.panel import Panel as nel
-from rich import print as cetak
-from rich.markdown import Markdown as mark
-from rich.columns import Columns as col
-try:ugen = open('user.txt','r').read().splitlines()
-except:ugen = ['Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 7610;451) Opera 6.20'] #Aziz
-try:ugen2 = open('user2.txt','r').read().splitlines()
-except:ugen2 = ['Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 7610;451) Opera 6.20'] #Aziz
-
-id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
-
-x = '\033[93m'
-k = '\033[93m'
-h = '\x1b[1;92m'
-hh = '\033[92m'
-u = '\033[95m'
-kk = '\033[93m'
-b = '\33[1;96m'
-p = '\x1b[1;95m'
-P = '\033[0;00m'
-J = '\033[1;93m'
-S = '\033[0;00m'
-N = '\x1b[0m'
-I ='\033[1;92m'
-C ='\033[1;96m'
-M ='\033[1;91m'
-U ='\033[1;95m'
-K ='\033[1;93m'
-P='\033[00m'
-h='\033[1;90m'
+import
 Q="\033[00m"
 kk='\033[1;92m'
 ff='\033[1;96m'
