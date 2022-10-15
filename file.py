@@ -109,9 +109,9 @@ def banner():
 
                       
 \x1b[93;1m===================================>\x1b[92;1m
-\x1b[96;1m Author       \x1b[92;1m=>      \x1b[93;1mTonmoy mahato 
-\x1b[93;1m Whatsapp     \x1b[92;1m=>      \x1b[93;1m+88017*********
-\x1b[92;1m YouTube       \x1b[92;1m=>      \x1b[93;1mTONMOY MAHATO
+\x1b[96;1m Author       \x1b[91;1m=>      \x1b[92;1mTonmoy mahato 
+\x1b[96;1m Whatsapp     \x1b[91;1m=>      \x1b[92;1m+88017*********
+\x1b[96;1m YouTube       \x1b[91;1m=>      \x1b[92;1mTONMOY MAHATO
 \x1b[93;1m===================================>\x1b[92;1m
 """%(h))
 		
