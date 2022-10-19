@@ -6,6 +6,6 @@ cd FILE-CRACK
 
 python FILE-CRACK.py
 
-CP id 7 day after login 70% login hobe 🥀💥🔥
+CP id 7 day after login🥀. 70% login hobe 🥀💥🔥
 
 free tools🥀💥
